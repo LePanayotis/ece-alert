@@ -9,3 +9,34 @@ notifies me in my email address, so that I don't have to manually check the webs
 
 I hope others can benefit from this :)
 
+## Requirements
+Before trying to install and deploy the application confirm that you have the following installed and configured in your system:
+
+1. **A Java 1.8 or higher JDK**
+2. <a href="https://maven.apache.org/install.html">**Maven**</a> 
+
+## Build and Run
+'''bash
+git clone https://github.com/LePanayotis/ece-alerts.git/
+cd ece-alerts
+'''
+
+'''bash
+mvn clean package
+'''
+
+'''bash
+nano .env
+'''
+
+'''bash
+java -jar ./target/ece-alerts-0-fat.jar
+'''
+
+'''bash
+java -jar ./target/ece-alerts-0-fat.jar >> /path/to/your/output/file 2>&1 & disown
+'''
+
+
+##License
+[MIT]
