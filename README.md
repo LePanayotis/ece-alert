@@ -22,7 +22,7 @@ Before trying to install and deploy the application confirm that you have the fo
 Download repo and switch to its directory
 
 ```bash
-git clone https://github.com/LePanayotis/ece-alerts.git/
+git clone https://github.com/LePanayotis/ece-alerts.git
 cd ece-alerts
 ```
 
